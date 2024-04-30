@@ -9,7 +9,7 @@ const app = express()
 app.use(cors());
 app.use(express.json())
 
-mongoose.connect('mongodb://localhost:27017/hathy');
+mongoose.connect('mongodb+srv://hariharanpandurengan:vIPYwWog8QA2ybiV@hathy.qyze8zy.mongodb.net/hathy?retryWrites=true&w=majority&appName=hathy');
 // mongodb+srv://hariharanpandurengan:vIPYwWog8QA2ybiV@hathy.qyze8zy.mongodb.net/hathy?retryWrites=true&w=majority&appName=hathy
 
 
